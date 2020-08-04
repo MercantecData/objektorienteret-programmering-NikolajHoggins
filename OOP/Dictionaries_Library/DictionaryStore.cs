@@ -10,5 +10,8 @@ namespace Dictionaries_Library
         
         //This dictionary will retun if a number is cool or not.
         public Dictionary<float, bool> isNice = new Dictionary<float, bool>();
+
+        //This dictionary will get the nickname of given person.
+        public Dictionary<Person, string> nicknames = new Dictionary<Person, string>();
     }
 }

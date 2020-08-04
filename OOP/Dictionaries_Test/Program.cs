@@ -31,6 +31,9 @@ namespace Dictionaries_Test
             dictionaryStore.isNice.Add(10.10f, false);
             dictionaryStore.isNice.Add(80.085f, true);
 
+            dictionaryStore.nicknames.Add(new Person("Jesper Jespersen", 21), "Jepper");
+            dictionaryStore.nicknames.Add(new Person("Lasse Slumstrup", 18), "Slumme");
+            dictionaryStore.nicknames.Add(new Person("Jakob Thuesen", 18), "Thue");
 
             while (true)
             {
