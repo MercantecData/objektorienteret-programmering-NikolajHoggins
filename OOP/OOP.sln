@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries_Library", "Dic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries_Test", "Dictionaries_Test\Dictionaries_Test.csproj", "{66EEEE61-3DC4-4726-9E4D-C9907266929D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegister_Test", "PersonRegister_Test\PersonRegister_Test.csproj", "{B4C09ED1-55B7-484B-BDA5-8EDB3A23C650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegister_Library", "PersonRegister_Library\PersonRegister_Library.csproj", "{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{66EEEE61-3DC4-4726-9E4D-C9907266929D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66EEEE61-3DC4-4726-9E4D-C9907266929D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66EEEE61-3DC4-4726-9E4D-C9907266929D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C09ED1-55B7-484B-BDA5-8EDB3A23C650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C09ED1-55B7-484B-BDA5-8EDB3A23C650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C09ED1-55B7-484B-BDA5-8EDB3A23C650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C09ED1-55B7-484B-BDA5-8EDB3A23C650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
