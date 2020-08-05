@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegister_Test", "Pers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegister_Library", "PersonRegister_Library\PersonRegister_Library.csproj", "{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading_Library", "Overloading_Library\Overloading_Library.csproj", "{B9E45B78-BEAB-4A78-A911-D9EB9BB66737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading_Test", "Overloading_Test\Overloading_Test.csproj", "{FF90230A-F4BA-42AA-9AC5-61DA68F9AF20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +35,13 @@ Global
 		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC5DC63-1EC6-497B-BD43-836ECE74AFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E45B78-BEAB-4A78-A911-D9EB9BB66737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E45B78-BEAB-4A78-A911-D9EB9BB66737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E45B78-BEAB-4A78-A911-D9EB9BB66737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E45B78-BEAB-4A78-A911-D9EB9BB66737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF90230A-F4BA-42AA-9AC5-61DA68F9AF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF90230A-F4BA-42AA-9AC5-61DA68F9AF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF90230A-F4BA-42AA-9AC5-61DA68F9AF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF90230A-F4BA-42AA-9AC5-61DA68F9AF20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
