@@ -18,8 +18,11 @@ namespace PersonRegister_test
             register.AddPerson(person2);
             register.AddPerson(person3);
 
-            Console.WriteLine(register.log);
-            foreach (LogEntry logEntry in register.log)
+            register.GetPeople();
+            register.RemovePerson("Jesper Jespersen");
+            register.GetPeople();
+            register.GetPerson();
+            foreach (LogEntry logEntry in register.GetLog())
             {
                 Console.WriteLine(logEntry.getAction() + " : " + logEntry.getCreatedAt());
             }
