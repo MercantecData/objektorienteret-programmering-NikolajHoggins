@@ -6,6 +6,6 @@ namespace School_Library
         private Group group;
         private bool isOccupied;
         
-        //No time to implement
+        //No time to implement, made the scope of the project too large
     }
 }

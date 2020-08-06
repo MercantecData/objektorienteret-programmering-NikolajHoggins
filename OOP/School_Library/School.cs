@@ -58,6 +58,7 @@ namespace School_Library
             }
             catch (Exception e)
             {
+                Console.WriteLine(e);
                 return null;
             }
         }
@@ -109,6 +110,7 @@ namespace School_Library
             }
             catch (Exception e)
             {
+                Console.WriteLine(e);
                 return null;
             }
             
