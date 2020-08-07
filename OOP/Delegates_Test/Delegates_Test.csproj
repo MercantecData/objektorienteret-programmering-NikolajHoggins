@@ -7,6 +7,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Delegates_Library\Delegates_Library.csproj" />
+      <ProjectReference Include="..\Overloading_Library\Overloading_Library.csproj" />
     </ItemGroup>
 
 </Project>
