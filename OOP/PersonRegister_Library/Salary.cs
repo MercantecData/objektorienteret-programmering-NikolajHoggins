@@ -3,8 +3,8 @@ namespace PersonRegister_Library
 {
     public class Salary
     {
-        public int monthlyPay;
-        public string currencyCode;
+        private int monthlyPay;
+        private string currencyCode;
 
         public Salary(int monthlyPay, string currencyCode)
         {

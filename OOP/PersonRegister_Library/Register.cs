@@ -12,8 +12,8 @@ namespace PersonRegister_Library
         ///</summary>
         public void AddPerson(Person person)
         {
-            this.log.Add(new LogEntry("Added person " + person.name));
-            this.people[person.name] = person;
+            this.log.Add(new LogEntry("Added person " + person.GetName()));
+            this.people[person.GetName()] = person;
         }
 
         ///<summary>
@@ -35,7 +35,7 @@ namespace PersonRegister_Library
             Random rand = new Random();
             string randomKey = keyList[rand.Next(keyList.Count)];
 
-            this.log.Add(new LogEntry("Retrieved random person, got: " + this.people[randomKey].name));
+            this.log.Add(new LogEntry("Retrieved random person, got: " + this.people[randomKey].GetName()));
 
             return this.people[randomKey];
 

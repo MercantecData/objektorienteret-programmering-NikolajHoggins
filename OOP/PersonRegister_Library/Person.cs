@@ -4,10 +4,10 @@ namespace PersonRegister_Library
 {
     public class Person
     {
-        public string name;
-        public int age;
-        public string address;
-        public Job job;
+        private string name;
+        private int age;
+        private string address;
+        private Job job;
 
         public Person(string name, int age, string address, Job job)
         {
@@ -17,6 +17,11 @@ namespace PersonRegister_Library
             this.address = address;
         }
 
+        public string GetName()
+        {
+            return this.name;
+        }
+        
         //This method will quit your job, but as you will lose your income stream, you will also lose your house
         public void quitJob()
         {

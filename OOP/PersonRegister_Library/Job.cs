@@ -3,9 +3,9 @@ namespace PersonRegister_Library
 {
     public class Job
     {
-        public string title;
-        public Salary salary;
-        public Company company;
+        private string title;
+        private Salary salary;
+        private Company company;
 
         public Job(string title, Salary salary, Company company)
         {

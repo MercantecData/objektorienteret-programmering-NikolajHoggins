@@ -3,9 +3,9 @@ namespace PersonRegister_Library
 {
     public class Company
     {
-        public string name;
-        public string address;
-        public int age;
+        private string name;
+        private string address;
+        private int age;
 
         public Company(string name, string address, int age)
         {
