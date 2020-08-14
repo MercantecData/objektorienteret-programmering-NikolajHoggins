@@ -17,11 +17,7 @@ namespace Computer_Test
             Console.WriteLine($"Desktop - {desktop.GetSalesFeatures()} - this is why you should buy it");
             
             IPeripheralMethods laptopPeripherals = laptop as IPeripheralMethods;
-            int[] newPos = laptopPeripherals.MoveMouse(23, 19400);
-            foreach (var newPo in newPos)
-            {
-                Console.WriteLine("lmao new in "+ newPo); 
-            }
+            int[] newPos = laptopPeripherals.MoveMouse(23, 2403);
 
         }
     }
