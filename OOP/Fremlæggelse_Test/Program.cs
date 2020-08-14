@@ -15,11 +15,12 @@ namespace Fremlæggelse_Test
         
         static void Main(string[] args)
         {
-            task = Tasks.get(endpoint);
             
             //Joke retrieving loop
             while (!isOver)
             {
+                //Get new task ready for next round of jokes.
+                task = Tasks.get(endpoint);
                 GeekQuotes();
             }
         }
@@ -31,7 +32,7 @@ namespace Fremlæggelse_Test
             Console.ReadLine(); Console.Clear();
             
             Console.WriteLine("Please choose how you want joke displayed.");
-            Console.WriteLine("1) Raw\n2) Presented\n3) Words replaced\n4) Okay sure.. you can quit if you want to.");
+            Console.WriteLine("1) Raw\n2) Presented\n3) Words replaced\n4) Display other\n5) Okay sure.. you can quit if you want to.");
             
             Int32.TryParse(Console.ReadLine(), out int choice);
             
@@ -66,6 +67,10 @@ namespace Fremlæggelse_Test
                     geekJoke = JokeDisplayHelper.replacedWords(task.Result, wordToReplace, wordToInsert);
                     break;
                 case 4:
+                    DisplayLoader();
+                    geekJoke = JokeDisplayHelper.displayOther(task.Result, (joke) => joke.ToUpper());
+                    break;
+                case 5:
                     isOver = true;
                     break;
                 default:
@@ -75,9 +80,6 @@ namespace Fremlæggelse_Test
             
             Console.SetCursorPosition(0,0);
             Console.WriteLine(geekJoke);
-            
-            //Get new task ready for next round of jokes.
-            task = Tasks.get("https://geek-jokes.sameerkumar.website/api");
         }
 
         //Syntax sugar to not have to write the same two lines again and again.
